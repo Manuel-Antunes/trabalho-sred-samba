@@ -23,6 +23,6 @@ ____
 
 > Todas as cofigurações apresentadas foram feitas via SSH usando as máquinas propostas na diciplina
 
-![conexão ssh](/media/images/IMG-20211223-WA0016.jpg)
+![conexão ssh](/media/images/1.jpg)
 
 <center> Arapiraca - 2021 </center>
