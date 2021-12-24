@@ -38,9 +38,7 @@ ___
 Gateway
 </td>
 <td align="center">
-
 gw.arthurmanuel914.labredes.ifalarapiraca.local
-
 </td>
 </tr>
 <tr>
@@ -48,9 +46,7 @@ gw.arthurmanuel914.labredes.ifalarapiraca.local
 Name Server 1
 </td>
 <td align="center">
-
 ns.arthurmanuel914.labredes.ifalarapiraca.local
-
 </td>
 </tr>
 <tr>
@@ -58,9 +54,7 @@ ns.arthurmanuel914.labredes.ifalarapiraca.local
 Samba-SRV
 </td>
 <td align="center">
-
 samba.arthurmanuel914.labredes.ifalarapiraca.local
-
 </td>
 </tr>
 </table>
