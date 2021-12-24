@@ -30,7 +30,18 @@ ____
 ![conexão ssh](/media/images/1.jpg)
 
 
-### Tabela de definições
+### Tabela de Definições da Rede
+
+| DESCRIÇÃO   | IP            |
+|:------------|:------------- |
+| Rede        | 10.9.14.0     |
+| Máscara     | 255.255.255.0 |
+| VirtualBox (gateway)     | 10.9.14.1      |
+| Broadcast   | 10.9.14.255  |
+| ns1         | 10.9.14.132   |
+| samba       | 10.9.14.132   |
+
+### Tabela de Definições de Nomes
 
 ___
 <table>
