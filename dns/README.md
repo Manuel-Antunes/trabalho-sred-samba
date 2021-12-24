@@ -58,4 +58,4 @@ ___
 
 Após a configuração do DNS podemos enfim iniciar a configuração do [samba](../samba/server)
 
-<center> Arapiraca - 2021 </center>
+<p align="center"> Arapiraca - 2021 </p>
