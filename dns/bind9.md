@@ -44,3 +44,64 @@ $ sudo mkdir /etc/bind/zones
 $ sudo nano /etc/bind/named.conf.local
 ```
 ![named conf](../media/images/19.jpeg)
+* após configurar o `named.conf.local` podemos testar a sintaxe usando o comando
+```shell
+$sudo named-checkconf
+```
+* então, iremos configurar o arquivo `/etc/default/named` para permitir resolver endereços IPv4
+```shell
+$sudo nano /etc/default/named
+```
+![create by template](../media/images/20.jpg)
+```diff
++ Adicionar a linha OPTIONS="-4 -u bind"
+```
+* por fim, podemos executar o serviço do bind9
+```shell
+$ sudo systemctl enable bind9
+$ sudo systemctl restart bind9
+```
+
+Pronto! com isso os serviços do bind9 estão configurados
+___
+Agora devemos adicionar o DNS ao netplan
+* primeiro, editamos o arquivo base
+```shell
+$ sudo nano /etc/netplan/50-cloud-init.yaml
+```
+![cloud init](../media/images/21.jpeg)
+* Para resolver os DNS configurados e verificar os campos
+```shell
+$ resolvectl status
+```
+![cloud init](../media/images/22.jpg)
+
+### Testes
+* Teste de DNS para a maquina ns1
+```shell
+$ dig ns1.arthurmanuel914.labredes.ifalarapiraca.local
+```
+* Teste de DNS para a máquina do samba
+```shell
+$ dig ns1.arthurmanuel914.labredes.ifalarapiraca.local
+```
+* Teste de DNS para a máquina do gateway
+```shell
+$ dig ns1.arthurmanuel914.labredes.ifalarapiraca.local
+```
+* Teste de DNS reverso para a máquina
+```shell
+$ dig ns1.arthurmanuel914.labredes.ifalarapiraca.local
+```
+
+* Testes de Ping
+```shell
+$ ping ns1
+$ ping samba
+$ ping gw
+```
+> Com o DNS e o Samba devidamente rodando e testados, podemos conectar uma máquina cliente ao servidor samba
+___
+confira um teste do [cliente samba](https://link)
+
+<p align="center"> Arapiraca - 2021 </p>

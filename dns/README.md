@@ -56,6 +56,6 @@ ___
   * iremos editar o arquivo `/etc/rc.local` para faze-lo atender as [especificações propostas](https://github.com/alaelson/labredes2021/blob/main/network/nat/readme.md) 
   > Após essa configuração nosso arquivo está com sua disponibilidade externa garantida e pronto pra atuar com o dns
 
-Após a configuração do Gateway podemos enfim iniciar a configuração do [samba](../samba/server)
-
+Após a configuração do Gateway podemos enfim iniciar a configuração do [samba](../samba)
+___
 <p align="center"> Arapiraca - 2021 </p>

@@ -58,5 +58,5 @@ $ sudo chgrp sambashare /samba/public
 ```
 
 Aqui temos o Samba configurado e pronto para a ação, no próximo passo iremos configurar o [bind9](https://www.isc.org/bind/) para podermos [finalizar a configuração do DNS](../../dns/bind9.md) 
-
+___
 <p align="center"> Arapiraca - 2021 </p>
