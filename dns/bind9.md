@@ -1,4 +1,4 @@
-## Configurando o Bind9
+# Configurando o Bind9
 
 > O Bind9 é um sistema de DNS flexivel e de fácil implementação que será a base para a configuração do sistema de nomes usado na nossa máquina que posteriormente será usado para fazer a ligação do cliente externo ao servidor samba
 
