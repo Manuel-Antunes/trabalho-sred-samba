@@ -1,5 +1,7 @@
 ## Configurando servidor DNS
 
+> O DNS é um servidor de nomes que permite que utilizemos um serviço que faz a conversão do nosso ip para um "sistema de diretórios com nomes customizados" utilizavel dentro da rede
+
 Utilizaremos o comando:
 
 ```shell
