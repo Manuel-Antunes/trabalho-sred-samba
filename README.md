@@ -20,8 +20,9 @@ ___
 
 Indice            |  link
 :-------------------------------:|:--------------------------------:
-Configuração de dns   |   [clique aqui](/dns)
+Configuração de gateway   |   [clique aqui](/dns)
 Configuração de servidor samba   |   [clique aqui](/samba/server)
+Configuração de dns   |   [clique aqui](/dns/bind9.md)
 Configuração de cliente samba   |   [clique aqui](/samba/client)
 ____
 
@@ -71,6 +72,15 @@ samba.arthurmanuel914.labredes.ifalarapiraca.local
 </table>
 
 ___
+
+<a href="/dns">
+<button style="background-color:#7159c1; width:100%; padding: 10px; border:none; color:#fff; border-radius:5px"   >
+<strong>Iniciar</strong>
+</button>
+</a>
+
+___
+
 
 
 <p align="center">

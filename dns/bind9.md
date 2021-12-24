@@ -43,3 +43,4 @@ $ sudo mkdir /etc/bind/zones
 ```shell
 $ sudo nano /etc/bind/named.conf.local
 ```
+![named conf](../media/images/19.jpeg)
