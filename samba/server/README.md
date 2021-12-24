@@ -41,3 +41,22 @@ $ sudo smbpasswd -a aluno
 $ sudo usermod -aG sambashare aluno
 ```
 ![smb1](../../media/images/13.jpg)
+
+### Aplicando Compartilhamento
+> Após a configuração do serviço do samba precisamos liberar pra ele uma pasta ao qual ele usará como repositório aberto do servidor de arquivos
+
+* para aplicar o compartilhamento precisamos criar uma pasta chamada sambashare na home da máquina, e então criar uma pasta public num diretório samba na raiz, usando os comandos:
+```shell
+$ mkdir /home/aluno/sambashare/
+$ sudo mkdir -p /samba/public
+```
+* agora após a criação da pasta, devemos dar as devidas permições às mesmas
+```shell
+$ sudo chown -R nobody:nogroup /samba/public
+$ sudo chmod -R 0775 /samba/public
+$ sudo chgrp sambashare /samba/public
+```
+
+Aqui temos o Samba configurado e pronto para a ação, no próximo passo iremos configurar o [bind9](https://www.isc.org/bind/) para podermos [finalizar a configuração do DNS](../../dns/bind9.md) 
+
+<p align="center"> Arapiraca - 2021 </p>
