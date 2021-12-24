@@ -1,6 +1,6 @@
-<center> 
-<img src="media/images/logo-if.png" alt="Logo Ifal" width="250"/>
-</center>
+<p align="center">
+  <img src="media/images/logo-if.png" alt="Logo Ifal" width="250"/>
+</p>
 
 <br/>
 
@@ -25,4 +25,6 @@ ____
 
 ![conexão ssh](/media/images/1.jpg)
 
-<center> Arapiraca - 2021 </center>
+<p align="center">
+  Arapiraca - 2021 
+</p>
