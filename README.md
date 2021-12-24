@@ -59,7 +59,7 @@ Samba-SRV
 </td>
 <td align="center">
 
-samba.renilsoneduarda914.labredes.ifalarapiraca.local
+samba.arthurmanuel914.labredes.ifalarapiraca.local
 
 </td>
 </tr>
