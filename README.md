@@ -4,14 +4,14 @@
 
 <br/>
 
-## Lab Redes 2021 - Rede Samba com DNS
+# Lab Redes 2021 - Rede Samba com DNS
 ___
-#### Alunos: Manuel Eduardo - Arthur Brito
-#### Turma: 914
+### Alunos: Manuel Eduardo - Arthur Brito
+### Turma: 914
 
-#### Disciplina: SRED (Serviços de Redes)
+### Disciplina: SRED (Serviços de Redes)
 
-#### Professor: Alaelson Jatobá
+### Professor: Alaelson Jatobá
 ___
 > O Roteiro preparado discorre sobre a implementação de uma rede samba de compartilhamento de arquivos que permite conectar duas máquinas virtuais de uma mesma rede, nomeando-as usando o protocolo DNS
 
@@ -30,7 +30,7 @@ ____
 ![conexão ssh](/media/images/1.jpg)
 
 
-### Tabela de Definições da Rede
+## Tabela de Definições da Rede
 
 | DESCRIÇÃO   | IP            |
 |:------------|:------------- |
@@ -41,7 +41,7 @@ ____
 | ns1         | 10.9.14.132   |
 | samba       | 10.9.14.132   |
 
-### Tabela de Definições de Nomes
+## Tabela de Definições de Nomes
 
 ___
 <table>

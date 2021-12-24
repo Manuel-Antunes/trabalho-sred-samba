@@ -1,10 +1,10 @@
-## Configurando Servidor Samba
+# Configurando Servidor Samba
 
 > O Samba é um servidor de arquivos muito poderoso, que permite que não só consigamos compartilhar arquivos dentro de uma rede, mas ele atua como um serviço completo de simple storage, como o S3 da AWS ou Google Cloud Storage, com regras customizaveis e vários outros recursos
 
 Antes de usarmos o Samba precisamos fazer a instalação do pacote
 
-### Instalação
+## Instalação
 ```shell
 $ sudo apt update
 $ sudo apt install samba
@@ -21,7 +21,7 @@ $ netstat -an | grep LISTEN
 
 > Com o samba em pleno funcionamento podemos fazer o backup das configurações iniciais dele e começarmos a personalizar!
 
-### Configurando o Serviço
+## Configurando o Serviço
 * abra o arquivo de configurações em `/etc/samba/smb.conf`
 ```shell
 $ sudo nano /etc/samba/smb.conf
@@ -42,7 +42,7 @@ $ sudo usermod -aG sambashare aluno
 ```
 ![smb1](../media/images/13.jpg)
 
-### Aplicando Compartilhamento
+## Aplicando Compartilhamento
 > Após a configuração do serviço do samba precisamos liberar pra ele uma pasta ao qual ele usará como repositório aberto do servidor de arquivos
 
 * para aplicar o compartilhamento precisamos criar uma pasta chamada sambashare na home da máquina, e então criar uma pasta public num diretório samba na raiz, usando os comandos:

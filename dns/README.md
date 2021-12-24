@@ -1,4 +1,4 @@
-## Configurando servidor DNS
+# Configurando servidor DNS
 
 > O DNS é um servidor de nomes que permite que utilizemos um serviço que faz a conversão do nosso ip para um "sistema de diretórios com nomes customizados" utilizavel dentro da rede
 
@@ -12,7 +12,7 @@ $ ifconfig -a
 
 E então podemos obter os dados da rede e iniciarmos a configuração.
 ___
-### Vamos começar!
+## Vamos começar!
 
 * primeiro vamos utilizar comando `$ nano /etc/netplan/00-installer-config.yaml` no modo super user para editar o arquivo e adicionar linhas para configuração estática do IP
 ![arquivo 00-instaler-config.yml](../media/images/3.jpg)

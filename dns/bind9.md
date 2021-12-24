@@ -4,7 +4,7 @@
 
 Antes de usarmos o Bind9 precisamos fazer a instalação do pacote
 
-### Instalação
+## Instalação
 ```shell
 $ sudo apt update
 $ sudo apt install sudo apt-get install bind9 dnsutils bind9-doc
@@ -76,7 +76,7 @@ $ resolvectl status
 ```
 ![cloud init](../media/images/22.jpg)
 
-### Testes
+## Testes
 * Teste de DNS para a maquina ns1
 ```shell
 $ dig ns1.arthurmanuel914.labredes.ifalarapiraca.local
