@@ -102,6 +102,6 @@ $ ping gw
 ```
 > Com o DNS e o Samba devidamente rodando e testados, podemos conectar uma máquina cliente ao servidor samba
 ___
-confira um teste do [cliente samba](https://link)
+confira um teste do [cliente samba](https://drive.google.com/file/d/1db-0TLWMLjXJrbA9gVt08pSL-APyQwY9/view?usp=sharing)
 
 <p align="center"> Arapiraca - 2021 </p>

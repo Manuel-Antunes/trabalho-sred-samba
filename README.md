@@ -23,7 +23,6 @@ Indice            |  link
 Configuração de gateway   |   [clique aqui](/dns)
 Configuração de servidor samba   |   [clique aqui](/samba)
 Configuração de dns   |   [clique aqui](/dns/bind9.md)
-Configuração de cliente samba   |   [clique aqui](/samba/client)
 ____
 
 > Todas as cofigurações apresentadas foram feitas via SSH usando as máquinas propostas na diciplina
