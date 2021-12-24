@@ -20,4 +20,9 @@ Configuração de dns   |   [clique aqui](/dns)
 Configuração de servidor samba   |   [clique aqui](/samba/server)
 Configuração de cliente samba   |   [clique aqui](/samba/client)
 ____
-> Arapiraca - 2021
+
+> Todas as cofigurações apresentadas foram feitas via SSH usando as máquinas propostas na diciplina
+
+![conexão ssh](/media/images/IMG-20211223-WA0016.jpg)
+
+<center> Arapiraca - 2021 </center>
