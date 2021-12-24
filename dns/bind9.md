@@ -81,18 +81,22 @@ $ resolvectl status
 ```shell
 $ dig ns1.arthurmanuel914.labredes.ifalarapiraca.local
 ```
+![cloud init](../media/images/23.jpg)
 * Teste de DNS para a máquina do samba
 ```shell
-$ dig ns1.arthurmanuel914.labredes.ifalarapiraca.local
+$ dig samba.arthurmanuel914.labredes.ifalarapiraca.local
 ```
+![cloud init](../media/images/24.jpg)
 * Teste de DNS para a máquina do gateway
 ```shell
-$ dig ns1.arthurmanuel914.labredes.ifalarapiraca.local
+$ dig gw.arthurmanuel914.labredes.ifalarapiraca.local
 ```
+![cloud init](../media/images/25.jpg)
 * Teste de DNS reverso para a máquina
 ```shell
-$ dig ns1.arthurmanuel914.labredes.ifalarapiraca.local
+$ dig 10.9.14.132 
 ```
+![cloud init](../media/images/26.jpg)
 
 * Testes de Ping
 ```shell
@@ -100,6 +104,8 @@ $ ping ns1
 $ ping samba
 $ ping gw
 ```
+![cloud init](../media/images/27.jpg)
+
 > Com o DNS e o Samba devidamente rodando e testados, podemos conectar uma máquina cliente ao servidor samba
 ___
 Confira um teste do [cliente samba](https://drive.google.com/file/d/1db-0TLWMLjXJrbA9gVt08pSL-APyQwY9/view?usp=sharing)
