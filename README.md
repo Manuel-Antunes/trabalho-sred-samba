@@ -34,10 +34,10 @@ ____
 
 ___
 <table>
-<td>
+<td align="center">
 Gateway
 </td>
-<td>
+<td align="center">
 
 gw.arthurmanuel914.labredes.ifalarapiraca.local
 
