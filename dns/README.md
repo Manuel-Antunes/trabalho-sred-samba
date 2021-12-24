@@ -16,7 +16,7 @@ ___
 ![arquivo 00-instaler-config.yml](../media/images/3.jpg)
 
 
-* apos a configuração estática do IP podemos iniciar a configuração do getway
+* apos a configuração estática do IP podemos iniciar a configuração do gateway
   * habilitemos o firewall
   ```shell
   $ sudo ufw enabe
@@ -50,3 +50,5 @@ ___
   $ sudo reboot
   ```
   ![rebooting system](../media/images/6.jpg)
+  > apos a reinicialização da maquina podemos prosseguir
+  * iremos editar o arquivo `/etc/rc.local` para faze-lo atender as [especificações propostas](https://github.com/alaelson/labredes2021/blob/main/network/nat/readme.md) 
