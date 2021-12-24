@@ -73,11 +73,13 @@ samba.arthurmanuel914.labredes.ifalarapiraca.local
 
 ___
 
+<p align="center">
 <a href="/dns">
 <button style="background-color:#7159c1; width:100%; padding: 10px; border:none; color:#fff; border-radius:5px"   >
 <strong>Iniciar</strong>
 </button>
 </a>
+</p>
 
 ___
 
